@@ -1,4 +1,4 @@
-﻿// cache memory size.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+// cache memory size.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 #include <iostream>
 #include <cstdlib>
@@ -89,6 +89,7 @@ int main()
 			if (max_time < time_old)
 			{
 				ind = i;
+				break;
 			}
 		}
 		cout <<"Индекс = " << ind << "\t Max время = " << time_new << "\n";
